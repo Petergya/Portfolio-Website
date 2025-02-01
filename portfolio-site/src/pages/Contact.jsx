@@ -1,9 +1,10 @@
 import React from 'react';
+import SectionTitle from '../components/shared/SectionTitle';
 
 const Contact = () => {
   return (
-    <main className="container mx-auto p-8">
-      <h1 className="text-4xl font-bold mb-4">Contact Me</h1>
+    <div className="container mx-auto p-8">
+      <SectionTitle title="Contact Me" subtitle="Get in touch" />
       <form className="max-w-lg mx-auto">
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
@@ -45,7 +46,7 @@ const Contact = () => {
           Send Message
         </button>
       </form>
-    </main>
+    </div>
   );
 };
 
